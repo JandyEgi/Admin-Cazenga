@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <g id="Grupo_5" data-name="Grupo 5" transform="translate(-100 -3543)">
+    <g id="circle-date-story" transform="translate(100 3543)" fill="#f8f8f8" stroke="#96324d" stroke-width="3">
+      <circle cx="50" cy="50" r="50" stroke="none"/>
+      <circle cx="50" cy="50" r="48.5" fill="none"/>
+    </g>
+    <circle id="circle-date-story-2" cx="45" cy="45" r="45" transform="translate(103 3546)" fill="#96324d"/>
+  </g>
+</svg>

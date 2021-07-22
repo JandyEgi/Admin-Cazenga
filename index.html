@@ -1,0 +1,1064 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Admin | Cazenga</title>
+    <link rel="shortcut icon" href="assets/images/icons/Logo Adm. png.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/vendor/bootstrap 4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/vendor/mdb/css/mdb.min.css">
+    <link rel="stylesheet" href="assets/vendor/font-awesome 4/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/vendor/owlcarousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/vendor/owlcarousel/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+
+    <section class="container-fluid cs-login d-flex flex-column justify-content-center align-items-center" id="formOpen">
+        <div class="container">
+            <div class="row d-flex justify-content-center align-items-center login-position">
+                <div class="col-xl-5">
+                    <div class="form-group form-style" id="formLogar">
+                        <h4 class="text-white text-center">FAÇA O SEU LOGIN</h4>
+                        <p class="text-white mb-5 text-center">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                        <form action="#" method="post">
+                            <input type="text" class="form-control form-control-sm input-style" name="nomeUser" id=""
+                                aria-describedby="helpId" placeholder="Escreva seu Nome:" required>
+
+                            <input type="text" class="form-control form-control-sm mt-3 input-style" name="emailUser"
+                                id="" aria-describedby="helpId" placeholder="Escreva seu Email:" required>
+
+                            <p id="helpId" class="form-text my-3 text-white btn-cadastrar"> Cadastrar-se</p>
+                            <button type="submit" class="btn btn-csd-1 text-white ml-0">Entrar</button>
+                            <p class="form-text my-3 text-white btn-cancel">Cancelar</p>
+                        </form>
+                    </div>
+
+                    <div class="form-group form-style" id="formCadastrar">
+                        <h4 class="text-white text-center">FAÇA O SEU CADASTRO</h4>
+                        <p class="text-white mb-5 text-center">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                        <form action="#" method="post">
+                            <input type="text" class="form-control form-control-sm input-style" name="nomeUser" id=""
+                                aria-describedby="helpId" placeholder="Escreva seu Nome:" required>
+
+                            <input type="text" class="form-control form-control-sm mt-3 input-style" name="numberUser" id=""
+                                aria-describedby="helpId" placeholder="Escreva seu Número:" required>
+
+                            <input type="text" class="form-control form-control-sm mt-3 input-style" name="emailUser"
+                                id="" aria-describedby="helpId" placeholder="Escreva seu Email:" required>
+
+                            <small id="helpId" class="form-text my-3 text-white btn-login"> Entrar com a minha conta</small>
+                            <button type="submit" class="btn btn-csd-1 text-white btn-id ml-0">Cadastrar</button>
+                            <p class="form-text my-3 text-white btn-cancel btn-cancel-2">Cancelar</p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <header class="fixed-top scrolling-navbar">
+        <div class="container-fluid m-0 p-0 top-header">
+            <div class="container">
+                <div class="row py-2">
+                    <div class="col-xl-6 d-flex ">
+                        <p class="top-text m-0">
+                            <i class="fa fa-envelope-o mr-2" aria-hidden="true"></i>
+                            info@adiministracaocazenga.co.ao
+                        </p>
+                        <p class="top-text m-0">
+                            <i class="fa fa-phone ml-4 mr-2" aria-hidden="true"></i>
+                            +244 222 000 111
+                        </p>
+                    </div>
+                    <div class="col-xl-6 d-flex justify-content-end align-items-center top-redes">
+                        <i class="fa fa-facebook-square ml-2 text-white" aria-hidden="true"></i>
+                        <i class="fa fa-linkedin-square ml-2 text-white" aria-hidden="true"></i>
+                        <a href="#" class="p-log mr-2 ml-2 open-btn-logar">Login &nbsp; |</a>
+                        <a href="#" class="p-log open-btn-cadastro">Cadastrar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg sticky-top navbar-dark scrolling-navbar">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <div class="brand-icon">
+                        <img src="assets/images/admin_logo.png" alt="logo">
+                    </div>
+                </a>
+                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                    data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                        <li class="nav-item ativo">
+                            <a class="nav-link active nav-estilo nav-estilo-ativ" href="#inicio">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-estilo" href="#sobre">SOBRE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#nossoServico" class="nav-link nav-estilo">SERVIÇOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#estatutoOrganico" class="nav-link nav-estilo">ESTATUTO ORGANICO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#noticias" class="nav-link nav-estilo">NOTICIAS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contacto" class="nav-link nav-estilo">CONTACTOS</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">DISTRITOS</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="#" data-toggle="modal"
+                                    data-target="#modDestrit1">CAZENGA</a>
+                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#modDestrit2">TALA
+                                    HADY</a>
+                                <a class="dropdown-item" href="#" data-toggle="modal"
+                                    data-target="#modDestrit3">HOJI-YA-HENDA</a>
+                                <a class="dropdown-item" href="#" data-toggle="modal"
+                                    data-target="#modDestrit4">KALAWENDA</a>
+                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#modDestrit5">KIMA
+                                    KIEZA</a>
+                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#modDestrit6">11 DE
+                                    NOVEMBRO</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modDestrit1" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Destrito do Cazenga</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Body
+                </div>
+                <div class="modal-footer">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modDestrit2" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Destrito do Tala Hady</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Body
+                </div>
+                <div class="modal-footer">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modDestrit3" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Destrito do Hoji-ya-Henda</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Body
+                </div>
+                <div class="modal-footer">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modDestrit4" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Destrito do Kalawenda</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Body
+                </div>
+                <div class="modal-footer">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modDestrit5" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Destrito do Kima Kieza</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Body
+                </div>
+                <div class="modal-footer">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modDestrit6" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Destrito do 11 de Novembro</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Body
+                </div>
+                <div class="modal-footer">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="menos-top"></div> -->
+    <section class="container-fluid hero" id="inicio">
+        <div class="container">
+            <div class="hero-text">
+                <h1>GOVERNO PROVINCIAL <br> DE LUANDA  ADMINISTRAÇÃO <br> MUNICIPAL  DO CAZENGA</h1>
+                <p>CAZENGA COMUNIDADE VIVA!</p>
+                <a href="#nossoServico" class="btn btn-csd-1 text-white ml-0">SERVIÇOS</a>
+                <a href="files\Boletim 002A1.pdf" class="btn btn-csd-2">BOLETIM INFORMATIVO</a>
+                <!-- <button type="button" class="btn btn-csd-1 text-white ml-0">SERVIÇOS</button>
+                <button type="button" class="btn btn-csd-2">BOLETIM INFORMATIVO</button> -->
+            </div>
+        </div>
+    </section>
+    <section class="container mission-cards">
+        <div class="row card-mission justify-content-center">
+            <div class="col-xl-4 col-md-6 col-sm-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-cs-img"></div>
+                        <h4 class="card-text-style">Nossa visão</h4>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt officia cumque
+                            voluptatem facere saepe. Suscipit!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-sm-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-cs-img"></div>
+                        <h4 class="card-text-style">Nossa Missão</h4>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt officia cumque
+                            voluptatem facere saepe. Suscipit!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-sm-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-cs-img"></div>
+                        <h4 class="card-text-style">Nossos Valores</h4>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt officia cumque
+                            voluptatem facere saepe. Suscipit!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- sobre style -->
+
+    <section class="container cs-sobre mb-5" id="sobre">
+        <div class="row d-flex align-items-center">
+            <div class="col-xl-6 col-md-6 mb-4">
+                <h2>Sobre nós</h2>
+                <p class="text-md">
+                    A Administração Municipal do Cazenga é o órgão desconcentrado da Administração Local, que visa
+                    assegurar a realização de funções executivas do Estado no Município, com base em instrumentos e
+                    acções de orientação e promoção do desenvolvimento harmonioso e moderno do respectivo território, da
+                    sociedade e da economia, cabendo-lhe garantir a prestação dos serviços públicos necessários à
+                    segurança, bem-estar e progresso sustentado do Município.
+                </p>
+                <!-- <p class="text-md-none">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo fuga deserunt blanditiis aperiam
+                    ut voluptatem architecto fugit vero libero sit beatae, doloribus aliquid impedit aut cupiditate
+                    amet iusto incidunt vitae tenetur, qui accusamus? Quam ut temporibus architecto a, ipsa
+                    quisquam.
+                </p> -->
+                <button type="button" class="btn btn-csd-1 text-white ml-0" data-toggle="modal"
+                    data-target="#modalSobre">ler mais</button>
+            </div>
+            <div class="col-xl-6 col-md-6 mb-4">
+                <img src="assets/images/img-about.png"
+                    class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                    alt="">
+            </div>
+        </div>
+    </section>
+    <!-- Modal -->
+    <div class="modal fade" id="modalSobre" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sobre nós</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p class="text-md">
+                        A Administração Municipal do Cazenga é o órgão desconcentrado da Administração Local, que visa
+                        assegurar a realização de funções executivas do Estado no Município, com base em instrumentos e
+                        acções de orientação e promoção do desenvolvimento harmonioso e moderno do respectivo
+                        território, da
+                        sociedade e da economia, cabendo-lhe garantir a prestação dos serviços públicos necessários à
+                        segurança, bem-estar e progresso sustentado do Município.
+                    </p>
+                </div>
+                <div class="modal-footer">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- serviços -->
+    <section class="container-fluid cs-container mx-0 px-0" id="nossoServico">
+        <div class="row cs-dod mx-0 px-0 align-items-center">
+            <div class="col-xl-8 col-md-8 col-sm-12 mx-0">
+                <div class="modal-cs">
+                    <div class="row">
+                        <div class="col-xl-6 col-md-6 col-sm-6 d-cards">
+                            <div class="card px-0">
+                                <div class="card-body pb-0">
+                                    <div class="row">
+                                        <div class="col-xl-2">
+                                            <div class="card-cs-trab"></div>
+                                        </div>
+                                        <div class="col-xl-10">
+                                            <h4 class="card-text-trab">Tratar documentos</h4>
+                                            <p>
+                                                Para alterar a maneira como uma imagem se ajusta ao seu documento, clique nela e um botão de opções de layout será exibido ao lado. 
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card px-0">
+                                <div class="card-body pb-0">
+                                    <div class="row">
+                                        <div class="col-xl-2">
+                                            <div class="card-cs-trab"></div>
+                                        </div>
+                                        <div class="col-xl-10">
+                                            <h4 class="card-text-trab">Tratar documentos</h4>
+                                            <p>
+                                                Para alterar a maneira como uma imagem se ajusta ao seu documento, clique nela e um botão de opções de layout será exibido ao lado. 
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card px-0">
+                                <div class="card-body pb-0">
+                                    <div class="row">
+                                        <div class="col-xl-2">
+                                            <div class="card-cs-trab"></div>
+                                        </div>
+                                        <div class="col-xl-10">
+                                            <h4 class="card-text-trab">Tratar documentos</h4>
+                                            <p>
+                                                Para alterar a maneira como uma imagem se ajusta ao seu documento, clique nela e um botão de opções de layout será exibido ao lado. 
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-md-6 col-sm-6 d-cards">
+                            <div class="card px-0">
+                                <div class="card-body pb-0">
+                                    <div class="row">
+                                        <div class="col-xl-2">
+                                            <div class="card-cs-trab"></div>
+                                        </div>
+                                        <div class="col-xl-10">
+                                            <h4 class="card-text-trab">Tratar documentos</h4>
+                                            <p>
+                                                Para alterar a maneira como uma imagem se ajusta ao seu documento, clique nela e um botão de opções de layout será exibido ao lado. 
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card px-0">
+                                <div class="card-body pb-0">
+                                    <div class="row">
+                                        <div class="col-xl-2">
+                                            <div class="card-cs-trab"></div>
+                                        </div>
+                                        <div class="col-xl-10">
+                                            <h4 class="card-text-trab">Tratar documentos</h4>
+                                            <p>
+                                                Para alterar a maneira como uma imagem se ajusta ao seu documento, clique nela e um botão de opções de layout será exibido ao lado. 
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card px-0">
+                                <div class="card-body pb-0">
+                                    <div class="row">
+                                        <div class="col-xl-2">
+                                            <div class="card-cs-trab"></div>
+                                        </div>
+                                        <div class="col-xl-10">
+                                            <h4 class="card-text-trab">Tratar documentos</h4>
+                                            <p>
+                                                Para alterar a maneira como uma imagem se ajusta ao seu documento, clique nela e um botão de opções de layout será exibido ao lado. 
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-4 csb-img bg-danger">
+                <section>
+                    <h2>Nossos serviços</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam eaque earum unde atque sunt
+                        quaerat laudantium quisquam harum nihil ex?</p>
+                    <!-- <a name="" id="" class="btn btn-link-1 ml-0" href="#" role="button">ver mais</a> -->
+                </section>
+            </div>
+        </div>
+    </section>
+
+    <!-- historia -->
+
+    <div class="container-fluid history" id="historia">
+        <div class="container mt-5">
+            <h2>nosso histórico</h2>
+            <div class="row prinp">
+                <div class="col-xl-6 col-md-6 col-lg-6 px-0">
+                    <div class="row mx-0 px-0">
+                        <div class="col-xl-3 mr-auto mb-3 mt-3 col-md-2">
+                            <div class="img-hist">
+                                <p>1999</p>
+                            </div>
+                        </div>
+                        <div class="col-xl-9 ml-auto col-md-9">
+                            <div class="time-line">
+                                <h4>Rosalino Ináncio Neto</h4>
+                                <p>
+                                    Veio da Empresa Nocal - Exerceu acumulativamente a função de Coordenador do Comité
+                                    Municipal do MPLA do Cazenga.
+                                </p>
+                                <!-- <a href="#">ver mais</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-6 col-md-6 col-lg-6 px-0">
+                    <div class="row mx-0 px-0">
+                        <div class="col-xl-3 mr-auto mb-3 mt-3 col-md-2">
+                            <div class="img-hist">
+                                <p>1999</p>
+                            </div>
+                        </div>
+                        <div class="col-xl-9 ml-auto col-md-9">
+                            <div class="time-line">
+                                <h4>João Baptista Coutinho Octávio (Japonês)</h4>
+                                <p>
+                                    Veio da Empresa Edi Pescas - Exerceu acumulativamente a função de Coordenador do
+                                    Comité Municipal do MPLA do Cazenga.
+                                </p>
+                                <!-- <a href="#">ver mais</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-xl-6 col-md-6 col-lg-6 px-0">
+                    <div class="row mx-0 px-0">
+                        <div class="col-xl-3 mr-auto mb-3 mt-3 col-md-2">
+                            <div class="img-hist">
+                                <p>1999</p>
+                            </div>
+                        </div>
+                        <div class="col-xl-9 ml-auto col-md-9">
+                            <div class="time-line">
+                                <h4>Domingos Bernardo Ebo</h4>
+                                <p>
+                                    Veio da Ex Assembleia Provincial de Luanda - Exerceu acumulativamente a função de
+                                    Coordenador do Comité Municipal do MPLA do Cazenga.
+                                </p>
+                                <!-- <a href="#">ver mais</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-6 col-md-6 col-lg-6 px-0">
+                    <div class="row mx-0 px-0">
+                        <div class="col-xl-3 mr-auto mb-3 mt-3 col-md-2">
+                            <div class="img-hist">
+                                <p>1999</p>
+                            </div>
+                        </div>
+                        <div class="col-xl-9 ml-auto col-md-9">
+                            <div class="time-line">
+                                <h4>Francisco Bernardo João (Bota Militar)</h4>
+                                <p>
+                                    Veio da Fábrica Fabimor - Exerceu acumulativamente a função de Coordenador do Comité
+                                    Municipal do MPLA do Cazenga.
+                                </p>
+                                <!-- <a href="#">ver mais</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-xl-6 col-md-6 col-lg-6 px-0">
+                    <div class="row mx-0 px-0">
+                        <div class="col-xl-3 mr-auto mb-3 mt-3 col-md-2">
+                            <div class="img-hist">
+                                <p>1999</p>
+                            </div>
+                        </div>
+                        <div class="col-xl-9 ml-auto col-md-9">
+                            <div class="time-line">
+                                <h4>José Pedro Batalha (Nvunda)</h4>
+                                <p>
+                                    Era Administrador Municipal Adjunto de Viana.
+                                </p>
+                                <!-- <a href="#">ver mais</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-6 col-md-6 col-lg-6 px-0">
+                    <div class="row mx-0 px-0">
+                        <div class="col-xl-3 mr-auto mb-3 mt-3 col-md-2">
+                            <div class="img-hist">
+                                <p>1999</p>
+                            </div>
+                        </div>
+                        <div class="col-xl-9 ml-auto col-md-9">
+                            <div class="time-line">
+                                <h4>Mateus António da Costa (Godô)</h4>
+                                <p>
+                                    Era Administrador Municipal Adjunto do Cazenga.
+                                </p>
+                                <!-- <a href="#">ver mais</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-xl-6 col-md-6 col-lg-6 px-0">
+                    <div class="row mx-0 px-0">
+                        <div class="col-xl-3 mr-auto mb-3 mt-3 col-md-2">
+                            <div class="img-hist">
+                                <p>1999</p>
+                            </div>
+                        </div>
+                        <div class="col-xl-9 ml-auto col-md-9">
+                            <div class="time-line">
+                                <h4>Fernando Domingos Manuel (Nando Galinha)</h4>
+                                <p>
+                                    Veio do CPPL.
+                                </p>
+                                <!-- <a href="#">ver mais</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-6 col-md-6 col-lg-6 px-0">
+                    <div class="row mx-0 px-0">
+                        <div class="col-xl-3 mr-auto mb-3 mt-3 col-md-2">
+                            <div class="img-hist">
+                                <p>1999</p>
+                            </div>
+                        </div>
+                        <div class="col-xl-9 ml-auto col-md-9">
+                            <div class="time-line">
+                                <h4>Victor Nataniel de Oliveira Guilherme Narciso (Tany Narciso)</h4>
+                                <p>
+                                    Veio da Sede Nacional do MPLA, terminou o seu mandato em 31 de Julho de 2018 -
+                                    Exerceu acumulativamente a função de Coordenador do Comité Municipal do MPLA do
+                                    Cazenga.
+                                </p>
+                                <!-- <a href="#">ver mais</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- funcionarios -->
+    <div class="container-fluid cs-noss">
+        <div class="row">
+            <div class="col-xl-5 col-lg-2 cs-noss-img">
+                <div class="vertical">
+                    <h4>NOSSO FUNCIONÁRIOS</h4>
+                </div>
+            </div>
+            <div class="col-xl-7 col-lg-8 col-md-12 slider-cs-responsive">
+                <center>
+                    <div class="cs-slider">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item cs-slide">
+                                <div class="card active-card">
+                                    <div class="card-body">
+                                        <div class="img-cs-noss"></div>
+                                        <h4 class="card-title">Albino da Conceição José</h4>
+                                        <p class="text-white">Administrador do Cazenga</p>
+                                        <p class="text-center ativo-p">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam modi
+                                            eveniet aspernatur odio vero odit similique praesentium delectus
+                                            eaque voluptatibus?
+                                        </p>
+                                        <a href="#">ver mais</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item cs-slide">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="img-cs-noss"></div>
+                                        <h4 class="card-title">Albino da Conceição José</h4>
+                                        <p class="card-text">Administrador do Cazenga</p>
+                                        <p class="text-center card-p">
+                                            Quando você aplica estilos, os títulos são alterados para coincidir com o novo tema. Economize tempo no Word com novos botões que são mostrados no local em que você precisa deles. 
+                                        </p>
+                                        <a href="#">ver mais</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item cs-slide">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="img-cs-noss"></div>
+                                        <h4 class="card-title">Albino da Conceição José</h4>
+                                        <p class="card-text">Administrador do Cazenga</p>
+                                        <p class="text-center card-p">
+                                            Quando você aplica estilos, os títulos são alterados para coincidir com o novo tema. Economize tempo no Word com novos botões que são mostrados no local em que você precisa deles. 
+                                        </p>
+                                        <a href="#">ver mais</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item cs-slide">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="img-cs-noss"></div>
+                                        <h4 class="card-title">Albino da Conceição José</h4>
+                                        <p class="card-text">Administrador do Cazenga</p>
+                                        <p class="text-center card-p">
+                                            Quando você aplica estilos, os títulos são alterados para coincidir com o novo tema. Economize tempo no Word com novos botões que são mostrados no local em que você precisa deles. 
+                                        </p>
+                                        <a href="#">ver mais</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item cs-slide">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="img-cs-noss"></div>
+                                        <h4 class="card-title">Albino da Conceição José</h4>
+                                        <p class="card-text">Administrador do Cazenga</p>
+                                        <p class="text-center card-p">
+                                            Quando você aplica estilos, os títulos são alterados para coincidir com o novo tema. Economize tempo no Word com novos botões que são mostrados no local em que você precisa deles. 
+                                        </p>
+                                        <a href="#">ver mais</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item cs-slide">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="img-cs-noss"></div>
+                                        <h4 class="card-title">Albino da Conceição José</h4>
+                                        <p class="card-text">Administrador do Cazenga</p>
+                                        <p class="text-center card-p">
+                                            Quando você aplica estilos, os títulos são alterados para coincidir com o novo tema. Economize tempo no Word com novos botões que são mostrados no local em que você precisa deles. 
+                                        </p>
+                                        <a href="#">ver mais</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </center>
+            </div>
+        </div>
+    </div>
+
+    <!-- estatuto organico -->
+
+    <div class="container-fluid cs-org" id="estatutoOrganico">
+        <div class="container">
+            <h2 class="org-title">ESTATUTO ORGÂNICO</h2>
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 d-cards mt-3">
+                    <div class="card px-0 mb-5">
+                        <div class="card-body pb-3">
+                            <div class="row">
+                                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2">
+                                    <div class="card-cs-trab"></div>
+                                </div>
+                                <div class="col-xl-10 col-lg-10 col-md-10 col-sm-10 px-0">
+                                    <h4 class="card-text-trab">ADMINISTRADOR MUNICIPAL</h4>
+                                    <p class=" card-org-p">ADMINISTRADOR MUNICIPAL ADJUNTO PARA TÉCNICO E
+                                        INFRA-ESTRUTURA E
+                                        SERVIÇOS COMUNITÁRIOS.</p>
+                                    <p class=" card-org-p">ADMINISTRADOR MUNICIPAL ADJUNTO PARA ÁREA ECONÓMICA E
+                                        FINANCEIRA.
+                                    </p>
+                                    <p class="card-org-p">ADMINISTRADOR MUNICIPAL ADJUNTO PARA ÁREA POLÍTICA SOCIAL E DA
+                                        COMUNIDADE.</p>
+                                    <p class=" card-org-p">GABINETE DOS ADMINISTRADOR E DOS ADMINISTRADORES MUNICIPAIS
+                                        ADJUNTOS
+                                    </p>
+                                    <p class=" card-org-p">COMIÇÃO MUNICIPAL DE PROTECÇÃO CIVIL</p>
+                                    <p class=" card-org-p">CMVC</p>
+                                    <a href="#" class="ver-mais">VER MAIS</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 d-cards mt-3">
+                    <div class="card px-0 mb-2 org-card">
+                        <div class="card-body pb-3">
+                            <div class="row">
+                                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2">
+                                    <div class="card-cs-trab"></div>
+                                </div>
+                                <div class="col-xl-10 col-lg-10 col-md-10 col-sm-10 px-0">
+                                    <h4 class="card-text-trab">SERVIÇOS DE APOIO TÉCNICO</h4>
+                                    <p class="mb-1 card-org-p">SECRETARIA GERAL.</p>
+                                    <p class="mb-1 card-org-p">ADMINISTRADOR MUNICIPAL ADJUNTO PARA ÁREA ECONÓMICA E
+                                        FINANCEIRA.
+                                    </p>
+                                    <p class="mb-1 card-org-p">ADMINISTRADOR MUNICIPAL ADJUNTO PARA ÁREA POLÍTICA SOCIAL
+                                        E DA
+                                        COMUNIDADE.</p>
+                                    <a href="#" class="ver-mais">VER MAIS</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card px-0 mb-5 org-card">
+                        <div class="card-body pb-3">
+                            <div class="row">
+                                <div class="col-xl-2 col-md-2 col-sm-2">
+                                    <div class="card-cs-trab"></div>
+                                </div>
+                                <div class="col-xl-10 col-lg-10 col-md-10 col-sm-10 px-0">
+                                    <h4 class="card-text-trab">SERVIÇOS DE APOIO TÉCNICO</h4>
+                                    <p class="mb-1 card-org-p">SECRETARIA GERAL.</p>
+                                    <p class="mb-1 card-org-p">ADMINISTRADOR MUNICIPAL ADJUNTO PARA ÁREA ECONÓMICA E
+                                        FINANCEIRA.
+                                    </p>
+                                    <p class="mb-1 card-org-p">ADMINISTRADOR MUNICIPAL ADJUNTO PARA ÁREA POLÍTICA SOCIAL
+                                        E DA
+                                        COMUNIDADE.</p>
+                                    <a href="#" class="ver-mais">VER MAIS</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- preço de documento -->
+    <div class="container-fluid cs-pre py-5" id="documentoPreco">
+        <div class="container py-5">
+            <h2>EMOLUMENTOS</h2>
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">TRATAR DOCUMENTO</h4>
+                            <p class="card-text">500Kz</p>
+                            <p class="cs-pre-p"><i class="fa fa-check-circle-o mr-1" aria-hidden="true"></i> Os títulos
+                                são alterados para coincidir com o novo tema</p>
+                            <p class="cs-pre-p"><i class="fa fa-check-circle-o mr-1" aria-hidden="true"></i> Alterados
+                                para coincidir</p>
+                            <p class="cs-pre-p"><i class="fa fa-check-circle-o mr-1" aria-hidden="true"></i> Para
+                                coincidir com o novo tema</p>
+                            <p class="cs-pre-p"><i class="fa fa-check-circle-o mr-1" aria-hidden="true"></i> Os títulos
+                                são alterados</p>
+                            <p class="cs-pre-p"><i class="fa fa-check-circle-o mr-1" aria-hidden="true"></i> Coincidir
+                                com o novo tema</p>
+                            <center>
+                                <button class="btn btn-csd-1 text-white">tratar documento</button>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">TRATAR DOCUMENTO</h4>
+                            <p class="card-text">500Kz</p>
+                            <p class="cs-pre-p"><i class="fa fa-check-circle-o mr-1" aria-hidden="true"></i> Os títulos
+                                são alterados para coincidir com o novo tema</p>
+                            <p class="cs-pre-p"><i class="fa fa-check-circle-o mr-1" aria-hidden="true"></i> Alterados
+                                para coincidir</p>
+                            <p class="cs-pre-p"><i class="fa fa-check-circle-o mr-1" aria-hidden="true"></i> Para
+                                coincidir com o novo tema</p>
+                            <p class="cs-pre-p"><i class="fa fa-check-circle-o mr-1" aria-hidden="true"></i> Os títulos
+                                são alterados</p>
+                            <p class="cs-pre-p"><i class="fa fa-check-circle-o mr-1" aria-hidden="true"></i> Coincidir
+                                com o novo tema</p>
+                            <center>
+                                <button class="btn btn-csd-1 text-white">tratar documento</button>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">TRATAR DOCUMENTO</h4>
+                            <p class="card-text">500Kz</p>
+                            <p class="cs-pre-p"><i class="fa fa-check-circle-o mr-1" aria-hidden="true"></i> Os títulos
+                                são alterados para coincidir com o novo tema</p>
+                            <p class="cs-pre-p"><i class="fa fa-check-circle-o mr-1" aria-hidden="true"></i> Alterados
+                                para coincidir</p>
+                            <p class="cs-pre-p"><i class="fa fa-check-circle-o mr-1" aria-hidden="true"></i> Para
+                                coincidir com o novo tema</p>
+                            <p class="cs-pre-p"><i class="fa fa-check-circle-o mr-1" aria-hidden="true"></i> Os títulos
+                                são alterados</p>
+                            <p class="cs-pre-p"><i class="fa fa-check-circle-o mr-1" aria-hidden="true"></i> Coincidir
+                                com o novo tema</p>
+                            <center>
+                                <button class="btn btn-csd-1 text-white">tratar documento</button>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- noticias -->
+    <div class="container-fluid mt-5" id="noticias">
+        <div class="container">
+            <div class=" pt-5">
+                <h2>NOTÍCIAS</h2>
+            </div>
+           
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-5">
+                    <div class="card card-not px-0 py-0">
+                        <div class="card-body not-bod">
+                            <div class="img-box-not"></div>
+                            <div class="not-content">
+                                <h4 class="card-title-notf">TESTE EM MASS NOS MERCADOS DO CAZENGA</h4>
+                                <div class="p-not-cs">
+                                    <p><i class="fa fa-calendar" aria-hidden="true"></i> 15 de julho de 2020</p> <i
+                                        class="cs-icon ml-3 mr-2"></i>
+                                    <p>02:33PM</p>
+                                </div>
+                                <p class="time-p">
+                                    Quando você aplica estilos, os títulos são alterados para coincidir com o novo tema.
+                                    Economize tempo no Word com novos botões que são mostrados no local em que.
+                                </p>
+                                <button class="btn btn-time mb-0"> ver mais </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-5">
+                    <div class="card card-not px-0 py-0">
+                        <div class="card-body not-bod">
+                            <div class="img-box-not"></div>
+                            <div class="not-content">
+                                <h4 class="card-title-notf">TESTE EM MASS NOS MERCADOS DO CAZENGA</h4>
+                                <div class="p-not-cs">
+                                    <p><i class="fa fa-calendar" aria-hidden="true"></i> 15 de julho de 2020</p> <i
+                                        class="cs-icon ml-3 mr-2"></i>
+                                    <p>02:33PM</p>
+                                </div>
+                                <p class="time-p">
+                                    Quando você aplica estilos, os títulos são alterados para coincidir com o novo tema.
+                                    Economize tempo no Word com novos botões que são mostrados no local em que.
+                                </p>
+                                <button class="btn btn-time mb-0"> ver mais </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-5">
+                    <div class="card card-not px-0 py-0">
+                        <div class="card-body not-bod">
+                            <div class="img-box-not"></div>
+                            <div class="not-content">
+                                <h4 class="card-title-notf">TESTE EM MASS NOS MERCADOS DO CAZENGA</h4>
+                                <div class="p-not-cs">
+                                    <p><i class="fa fa-calendar" aria-hidden="true"></i> 15 de julho de 2020</p> <i
+                                        class="cs-icon ml-3 mr-2"></i>
+                                    <p>02:33PM</p>
+                                </div>
+                                <p class="time-p">
+                                    Quando você aplica estilos, os títulos são alterados para coincidir com o novo tema.
+                                    Economize tempo no Word com novos botões que são mostrados no local em que.
+                                </p>
+                                <button class="btn btn-time mb-0"> ver mais </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="container-fluid mt-5 py-5 cs-don" id="contacto">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-10 col-lg-10 col-md-10 col-sm-12">
+                    <h4>FAÇA JÁ O DOWNLOAD DO NOSSO BOLETIM INFORMATIVO!</h4>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-10 col-sm-12">
+                    <button class="btn btn-csd-1 mr-auto text-white">BAIXAR</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid py cs-footer">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-xl-6"></div>
+                <div class="col-xl-6 col-lg-6 col-md-6">
+                    <h2 class="foot-text">CONTACTA-NOS</h2>
+                    <form action="#" method="post" class="cs-form">
+                        <input type="email" name="email" id="email" placeholder="Email" class="  cs-input mb-2">
+                        <input type="text" name="nome" id="text" placeholder="Nome" class="  cs-input mb-2">
+                        <textarea name="sms" id="sms" class="cs-sms" placeholder="Escreva uma mensagem"></textarea>
+                        <button type="button" class="btn btn-csd-1 text-white btn-foot ml-0 mt-2">ENVIAR</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="foot-styless py-4">
+        <h5>&copy; 2020 | ADMINISTRAÇÃO DO CAZENGA - TODOS DIREITOS RESERVADOS </h5>
+    </footer>
+
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap 4/js/bootstrap.min.js"></script>
+    <script src="assets/vendor/mdb/js/mdb.min.js"></script>
+    <script src="assets/vendor/owlcarousel/js/owl.carousel.min.js"></script>
+    <script>
+
+        $(document).ready(function () {
+            $('.owl-carousel').owlCarousel({
+                items: 3,
+                loop: true,
+                margin: 20,
+                autoplay: true,
+                autoplayTimeout: 2000,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    750: {
+                        items: 2
+                    },
+                    1170: {
+                        items: 3
+                    }
+                }
+            })
+        })
+
+        $('body').scrollspy({target: ".navbar"})
+    </script>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
